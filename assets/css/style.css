@@ -467,3 +467,8 @@ html[data-theme="light"] .pub-item { background: rgba(255, 255, 255, 0.35); }
   box-shadow: none !important;
   background: transparent !important;
 }
+
+.pub-meta strong {
+  color: var(--accent);
+  font-weight: 700;
+}
