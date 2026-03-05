@@ -447,3 +447,23 @@ html[data-theme="light"] .pub-item { background: rgba(255, 255, 255, 0.35); }
   body { background: white; }
   .card { box-shadow: none; }
 }
+
+/* ===== Ultra-clean overrides (paste at end of style.css) ===== */
+:root {
+  --shadow: none;
+}
+
+.hero {
+  background: none !important;
+  padding: 2rem 0 1rem !important;
+}
+
+.card {
+  box-shadow: none !important;
+  border-radius: 14px !important;
+}
+
+.pub-item {
+  box-shadow: none !important;
+  background: transparent !important;
+}
