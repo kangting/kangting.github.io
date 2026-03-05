@@ -1,16 +1,15 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- ====== 기본 정보(수정) ====== -->
-  <title>YOUR NAME | Graduate Student</title>
-  <meta name="description" content="YOUR NAME's academic homepage. Research interests, publications, and experience." />
+  <title>Taehun Kang | Ph.D. Student</title>
+  <meta name="description" content="Taehun Kang's academic homepage. Post-Quantum Cryptography, lattice/isogeny-based cryptography, and quantum algorithms." />
 
-  <!-- Open Graph (공유 미리보기) -->
-  <meta property="og:title" content="YOUR NAME | Graduate Student" />
-  <meta property="og:description" content="Research interests, publications, and experience." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Taehun Kang | Ph.D. Student" />
+  <meta property="og:description" content="Post-Quantum Cryptography, lattice/isogeny-based cryptography, and quantum algorithms." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/img/profile.jpg" />
 
@@ -18,17 +17,17 @@
 </head>
 
 <body>
-  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- 상단 고정 내비게이션 -->
+  <!-- Top navigation -->
   <header class="topbar">
     <div class="container topbar-inner">
-      <a class="brand" href="#top" aria-label="맨 위로">YOUR NAME</a>
+      <a class="brand" href="#top" aria-label="Back to top">Taehun Kang</a>
 
-      <nav class="nav" aria-label="주요 섹션">
-        <a href="#about">About Me</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
         <a href="#news">News</a>
-        <a href="#research">Research Interests</a>
+        <a href="#research">Research</a>
         <a href="#education">Education</a>
         <a href="#publications">Publications</a>
         <a href="#patents">Patents</a>
@@ -36,56 +35,62 @@
         <a href="#experience">Other Experience</a>
       </nav>
 
-      <button id="themeToggle" class="icon-btn" type="button" aria-label="테마 전환">🌓</button>
+      <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">🌓</button>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO / 프로필 -->
+    <!-- HERO -->
     <section class="hero" id="top">
       <div class="container hero-inner">
         <div class="hero-photo">
-          <!-- 프로필 사진 파일: assets/img/profile.jpg (원하는 파일명으로 바꿔도 됨) -->
-          <img class="avatar" src="assets/img/profile.jpg" alt="YOUR NAME 프로필 사진" />
+          <img class="avatar" src="assets/img/profile.jpg" alt="Taehun Kang profile photo" />
         </div>
 
         <div class="hero-content">
-          <h1 class="hero-title">YOUR NAME</h1>
-          <p class="hero-subtitle">Ph.D. Student · Department/Lab · University</p>
+          <h1 class="hero-title">Taehun Kang</h1>
+          <p class="hero-subtitle">
+            Ph.D. Student · PQSnC Lab · School of Cybersecurity, Korea University
+          </p>
 
           <ul class="meta">
             <li><strong>Location</strong> Seoul, Korea</li>
-            <li><strong>Email</strong> <a href="mailto:you@example.com">you@example.com</a></li>
-            <li><strong>Research</strong> SCA, FI, PQC</li>
+            <li><strong>Email</strong> <a href="mailto:kth9999@korea.ac.kr">kth9999@korea.ac.kr</a></li>
+            <li><strong>Advisor</strong> Prof. Changmin Lee</li>
+            <li><strong>Research</strong> Post-Quantum Cryptography, Lattice-based Cryptography, Isogeny-based Cryptography, Quantum Algorithm</li>
           </ul>
 
           <div class="button-row">
-            <!-- 링크는 본인 것으로 교체 -->
-            <a class="btn btn-primary" href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
-            <a class="btn" href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>
-            <a class="btn" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-
-            <!-- (선택) CV PDF를 올릴 경우: assets/files/cv.pdf -->
-            <a class="btn btn-ghost" href="assets/files/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+            <a class="btn btn-primary" href="https://scholar.google.com/citations?user=WbsddRsAAAAJ&hl=ko" target="_blank" rel="noopener">
+              Google Scholar
+            </a>
+            <a class="btn" href="https://orcid.org/0009-0004-6652-0786" target="_blank" rel="noopener">
+              ORCID
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/%ED%83%9C%ED%9B%88-%EA%B0%95-42167736a/" target="_blank" rel="noopener">
+              LinkedIn
+            </a>
           </div>
 
           <p class="hero-note">
             <span class="badge">Last update</span>
-            <span id="lastUpdatedText">2026-03</span>
+            <span id="lastUpdatedText">Mar. 2026</span>
+          </p>
+
+          <p class="muted" style="margin-top: 0.6rem; font-weight: 650;">
+            I am a Ph.D. student researching post-quantum cryptography.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- About Me -->
+    <!-- About -->
     <section class="section" id="about">
       <div class="container card">
         <h2>About Me</h2>
         <p>
-          안녕하세요. 저는 <strong>YOUR NAME</strong>입니다. (여기에 본인 소개를 작성하세요.)
-          예: “I am a Ph.D. student in the School/Department of ___ at ___ University.
-          My research focuses on ____.”
+          I am a Ph.D. student at <strong>PQSnC Lab</strong>, <strong>School of Cybersecurity</strong>, <strong>Korea University</strong>.
+          My research focuses on <strong>Post-Quantum Cryptography (PQC)</strong> and <strong>Quantum Algorithms</strong>.
         </p>
       </div>
     </section>
@@ -98,28 +103,29 @@
         <ul class="timeline">
           <li>
             <span class="time">2026-03</span>
-            <p class="desc">예: ○○ 학회에서 Best Paper Award 수상</p>
+            <p class="desc">Started Ph.D. in Cybersecurity at Korea University</p>
           </li>
           <li>
-            <span class="time">2025-11</span>
-            <p class="desc">예: 논문 “Title”이 ○○ 저널에 게재</p>
+            <span class="time">2023-09</span>
+            <p class="desc">Started M.S. in Cybersecurity at Korea University</p>
+          </li>
+          <li>
+            <span class="time">2018-03</span>
+            <p class="desc">Started B.S. in Mathematics at Korea University</p>
           </li>
         </ul>
-
-        <p class="hint">추가하려면 <code>&lt;li&gt;...&lt;/li&gt;</code> 블록을 복사해서 붙여넣으세요.</p>
       </div>
     </section>
 
-    <!-- Research Interests -->
+    <!-- Research -->
     <section class="section" id="research">
       <div class="container card">
         <h2>Research Interests</h2>
         <div class="chips" role="list">
-          <span class="chip" role="listitem">Cryptography</span>
-          <span class="chip" role="listitem">Side-Channel Analysis</span>
-          <span class="chip" role="listitem">Fault Injection</span>
           <span class="chip" role="listitem">Post-Quantum Cryptography</span>
-          <span class="chip" role="listitem">Embedded Security</span>
+          <span class="chip" role="listitem">Lattice-based Cryptography</span>
+          <span class="chip" role="listitem">Isogeny-based Cryptography</span>
+          <span class="chip" role="listitem">Quantum Algorithms</span>
         </div>
       </div>
     </section>
@@ -133,20 +139,22 @@
           <li>
             <span class="time">2026.03 – Present</span>
             <p class="desc">
-              <strong>Ph.D.</strong>, School/Department, University<br />
-              <span class="muted">Advisor: Prof. A, Prof. B</span>
+              <strong>Ph.D.</strong>, Korea University<br />
+              <span class="muted">School of Cybersecurity</span>
             </p>
           </li>
           <li>
             <span class="time">2024.03 – 2026.02</span>
             <p class="desc">
-              <strong>M.S.</strong>, School/Department, University
+              <strong>M.S.</strong>, Korea University<br />
+              <span class="muted">School of Cybersecurity</span>
             </p>
           </li>
           <li>
             <span class="time">2020.03 – 2024.02</span>
             <p class="desc">
-              <strong>B.S.</strong>, School/Department, University
+              <strong>B.S.</strong>, Korea University<br />
+              <span class="muted">Mathematics</span>
             </p>
           </li>
         </ul>
@@ -158,65 +166,89 @@
       <div class="container card">
         <h2>Publications</h2>
 
-        <!-- 탭 버튼 -->
         <div class="tabs" role="tablist" aria-label="Publications categories">
           <button class="tab-btn is-active" type="button" role="tab" aria-selected="true" data-tab="tab-under-review">
             Under Review
+          </button>
+          <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="tab-blind-review">
+            Blind Review
           </button>
           <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="tab-intl">
             International Journals &amp; Conferences
           </button>
           <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="tab-domestic">
-            Domestic Journals &amp; Conferences
+            Domestic Journals
           </button>
         </div>
 
-        <!-- 탭 패널: Under Review -->
+        <!-- Under Review -->
         <div class="pub-panel" id="tab-under-review" role="tabpanel">
           <ul class="pub-list">
             <li class="pub-item">
-              <div class="pub-title">Paper Title (Under Review)</div>
-              <div class="pub-meta">Author1, <strong>Author2</strong>, Author3 · Venue · 2026</div>
-              <div class="pub-links">
-                <a href="#" target="_blank" rel="noopener">Preprint</a>
-                <a href="#" target="_blank" rel="noopener">Code</a>
+              <div class="pub-title">Manuscript (Under Review)</div>
+              <div class="pub-meta">
+                <strong>Taehun Kang</strong>, Changmin Lee, Jeonghwan Lee · JAMC
+              </div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Manuscript (Under Review)</div>
+              <div class="pub-meta">
+                <strong>Taehun Kang</strong>, Donghoe Heo, Jeonghwan Lee, Suhri Kim, Changmin Lee · IEEE Access
               </div>
             </li>
           </ul>
         </div>
 
-        <!-- 탭 패널: International -->
+        <!-- Blind Review -->
+        <div class="pub-panel" id="tab-blind-review" role="tabpanel" hidden>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <div class="pub-title">Manuscript (Blind Review)</div>
+              <div class="pub-meta">
+                <strong>Taehun Kang</strong>, Changmin Lee, Yongha Son · CSF 2026
+              </div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Manuscript (Blind Review)</div>
+              <div class="pub-meta">
+                <strong>Taehun Kang</strong>, Jiseung Kim, Changmin Lee · CRYPTO 2026
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- International -->
         <div class="pub-panel" id="tab-intl" role="tabpanel" hidden>
           <ul class="pub-list">
             <li class="pub-item">
-              <div class="pub-title">Paper Title</div>
-              <div class="pub-meta">Author1, <strong>YOUR NAME</strong>, Author3 · Conference/Journal · 2025</div>
-              <div class="pub-links">
-                <a href="#" target="_blank" rel="noopener">PDF</a>
-                <a href="#" target="_blank" rel="noopener">DOI</a>
-                <a href="#" target="_blank" rel="noopener">BibTeX</a>
+              <div class="pub-title">Comprehensive Analysis and Implementation of Isogeny-Based Hash Functions</div>
+              <div class="pub-meta">
+                Donghoe Heo, Jeonghwan Lee, <strong>Taehun Kang</strong>, Suhri Kim, Seokhie Hong · IEEE Access (Vol. 12)
+              </div>
+            </li>
+
+            <li class="pub-item">
+              <div class="pub-title">
+                Applying Quantum Annealing to Block Cipher Cryptanalysis: An Experimental Study of Searching for Integral Distinguishers
+              </div>
+              <div class="pub-meta">
+                Insung Kim, Gilsang Ahn, Minjae Lee, Sunyeop Kim, <strong>Taehun Kang</strong>, Dongjae Lee, Seokhie Hong · ACM SAC 2026 (to appear)
               </div>
             </li>
           </ul>
         </div>
 
-        <!-- 탭 패널: Domestic -->
+        <!-- Domestic -->
         <div class="pub-panel" id="tab-domestic" role="tabpanel" hidden>
           <ul class="pub-list">
             <li class="pub-item">
-              <div class="pub-title">국내 학회/저널 논문 제목</div>
-              <div class="pub-meta">저자1, <strong>YOUR NAME</strong> · 학회/저널 · 2024</div>
-              <div class="pub-links">
-                <a href="#" target="_blank" rel="noopener">PDF</a>
+              <div class="pub-title">Performance Analysis and Constant-time Implementation of terSIDH</div>
+              <div class="pub-meta">
+                <strong>Taehun Kang</strong>, Donghoe Heo, JeongHwan Lee, Suhri Kim, Seokhie Hong · 정보보호학회논문지 34(6) · 2024
               </div>
             </li>
           </ul>
         </div>
-
-        <p class="hint">
-          팁: 각 논문은 <code>&lt;li class="pub-item"&gt; ... &lt;/li&gt;</code> 한 덩어리입니다.
-          복사/붙여넣기로 쉽게 추가할 수 있어요.
-        </p>
       </div>
     </section>
 
@@ -225,10 +257,7 @@
       <div class="container card">
         <h2>Patents</h2>
         <ul class="simple-list">
-          <li>
-            <strong>Patent Title</strong> · Applicant/Inventors · Country · Year
-            <span class="muted"> (Application No. / Registration No.)</span>
-          </li>
+          <li class="muted">None at the moment.</li>
         </ul>
       </div>
     </section>
@@ -238,8 +267,17 @@
       <div class="container card">
         <h2>Awards</h2>
         <ul class="simple-list">
-          <li><strong>Award Name</strong> · Organization · 2026</li>
-          <li><strong>Award Name</strong> · Organization · 2025</li>
+          <li>
+            <strong>Special Prize</strong>, Cryptocontest 2024 · Oct. 2024 · Korea Institute of Information Security &amp; Cryptology (KIISC)
+          </li>
+          <li>
+            <strong>Outstanding Paper Award</strong>, CISC-S'24 · Jun. 2024 · KIISC ·
+            <span class="muted">
+              (Paper: “Performance and Security Analysis of Isogeny Orderings in terSIDH”)
+            </span>
+            <br />
+            <span class="muted"><strong>President’s Award</strong>, Korea Internet &amp; Security Agency (KISA)</span>
+          </li>
         </ul>
       </div>
     </section>
@@ -251,17 +289,17 @@
 
         <h3>Work / Internship</h3>
         <ul class="simple-list">
-          <li><strong>Company/Lab</strong> · Role · 2025.06 – 2025.08</li>
+          <li class="muted">To be updated.</li>
         </ul>
 
         <h3>Teaching / Service</h3>
         <ul class="simple-list">
-          <li><strong>TA</strong>, Course Name · University · 2026 Spring</li>
+          <li class="muted">To be updated.</li>
         </ul>
 
         <h3>Talks</h3>
         <ul class="simple-list">
-          <li><strong>Talk Title</strong> · Event · 2025</li>
+          <li class="muted">To be updated.</li>
         </ul>
       </div>
     </section>
@@ -269,7 +307,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© <span id="year"></span> YOUR NAME. Built with GitHub Pages.</p>
+      <p>© <span id="year"></span> Taehun Kang. Built with GitHub Pages.</p>
     </div>
   </footer>
 
