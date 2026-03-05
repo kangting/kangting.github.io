@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ====== 기본 정보(수정) ====== -->
+  <title>YOUR NAME | Graduate Student</title>
+  <meta name="description" content="YOUR NAME's academic homepage. Research interests, publications, and experience." />
+
+  <!-- Open Graph (공유 미리보기) -->
+  <meta property="og:title" content="YOUR NAME | Graduate Student" />
+  <meta property="og:description" content="Research interests, publications, and experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/profile.jpg" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+  <!-- 상단 고정 내비게이션 -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="맨 위로">YOUR NAME</a>
+
+      <nav class="nav" aria-label="주요 섹션">
+        <a href="#about">About Me</a>
+        <a href="#news">News</a>
+        <a href="#research">Research Interests</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#patents">Patents</a>
+        <a href="#awards">Awards</a>
+        <a href="#experience">Other Experience</a>
+      </nav>
+
+      <button id="themeToggle" class="icon-btn" type="button" aria-label="테마 전환">🌓</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO / 프로필 -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-photo">
+          <!-- 프로필 사진 파일: assets/img/profile.jpg (원하는 파일명으로 바꿔도 됨) -->
+          <img class="avatar" src="assets/img/profile.jpg" alt="YOUR NAME 프로필 사진" />
+        </div>
+
+        <div class="hero-content">
+          <h1 class="hero-title">YOUR NAME</h1>
+          <p class="hero-subtitle">Ph.D. Student · Department/Lab · University</p>
+
+          <ul class="meta">
+            <li><strong>Location</strong> Seoul, Korea</li>
+            <li><strong>Email</strong> <a href="mailto:you@example.com">you@example.com</a></li>
+            <li><strong>Research</strong> SCA, FI, PQC</li>
+          </ul>
+
+          <div class="button-row">
+            <!-- 링크는 본인 것으로 교체 -->
+            <a class="btn btn-primary" href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="btn" href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>
+            <a class="btn" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+
+            <!-- (선택) CV PDF를 올릴 경우: assets/files/cv.pdf -->
+            <a class="btn btn-ghost" href="assets/files/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          </div>
+
+          <p class="hero-note">
+            <span class="badge">Last update</span>
+            <span id="lastUpdatedText">2026-03</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="section" id="about">
+      <div class="container card">
+        <h2>About Me</h2>
+        <p>
+          안녕하세요. 저는 <strong>YOUR NAME</strong>입니다. (여기에 본인 소개를 작성하세요.)
+          예: “I am a Ph.D. student in the School/Department of ___ at ___ University.
+          My research focuses on ____.”
+        </p>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="section" id="news">
+      <div class="container card">
+        <h2>News</h2>
+
+        <ul class="timeline">
+          <li>
+            <span class="time">2026-03</span>
+            <p class="desc">예: ○○ 학회에서 Best Paper Award 수상</p>
+          </li>
+          <li>
+            <span class="time">2025-11</span>
+            <p class="desc">예: 논문 “Title”이 ○○ 저널에 게재</p>
+          </li>
+        </ul>
+
+        <p class="hint">추가하려면 <code>&lt;li&gt;...&lt;/li&gt;</code> 블록을 복사해서 붙여넣으세요.</p>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section" id="research">
+      <div class="container card">
+        <h2>Research Interests</h2>
+        <div class="chips" role="list">
+          <span class="chip" role="listitem">Cryptography</span>
+          <span class="chip" role="listitem">Side-Channel Analysis</span>
+          <span class="chip" role="listitem">Fault Injection</span>
+          <span class="chip" role="listitem">Post-Quantum Cryptography</span>
+          <span class="chip" role="listitem">Embedded Security</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container card">
+        <h2>Education</h2>
+
+        <ul class="timeline">
+          <li>
+            <span class="time">2026.03 – Present</span>
+            <p class="desc">
+              <strong>Ph.D.</strong>, School/Department, University<br />
+              <span class="muted">Advisor: Prof. A, Prof. B</span>
+            </p>
+          </li>
+          <li>
+            <span class="time">2024.03 – 2026.02</span>
+            <p class="desc">
+              <strong>M.S.</strong>, School/Department, University
+            </p>
+          </li>
+          <li>
+            <span class="time">2020.03 – 2024.02</span>
+            <p class="desc">
+              <strong>B.S.</strong>, School/Department, University
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="section" id="publications">
+      <div class="container card">
+        <h2>Publications</h2>
+
+        <!-- 탭 버튼 -->
+        <div class="tabs" role="tablist" aria-label="Publications categories">
+          <button class="tab-btn is-active" type="button" role="tab" aria-selected="true" data-tab="tab-under-review">
+            Under Review
+          </button>
+          <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="tab-intl">
+            International Journals &amp; Conferences
+          </button>
+          <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="tab-domestic">
+            Domestic Journals &amp; Conferences
+          </button>
+        </div>
+
+        <!-- 탭 패널: Under Review -->
+        <div class="pub-panel" id="tab-under-review" role="tabpanel">
+          <ul class="pub-list">
+            <li class="pub-item">
+              <div class="pub-title">Paper Title (Under Review)</div>
+              <div class="pub-meta">Author1, <strong>Author2</strong>, Author3 · Venue · 2026</div>
+              <div class="pub-links">
+                <a href="#" target="_blank" rel="noopener">Preprint</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 탭 패널: International -->
+        <div class="pub-panel" id="tab-intl" role="tabpanel" hidden>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <div class="pub-title">Paper Title</div>
+              <div class="pub-meta">Author1, <strong>YOUR NAME</strong>, Author3 · Conference/Journal · 2025</div>
+              <div class="pub-links">
+                <a href="#" target="_blank" rel="noopener">PDF</a>
+                <a href="#" target="_blank" rel="noopener">DOI</a>
+                <a href="#" target="_blank" rel="noopener">BibTeX</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 탭 패널: Domestic -->
+        <div class="pub-panel" id="tab-domestic" role="tabpanel" hidden>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <div class="pub-title">국내 학회/저널 논문 제목</div>
+              <div class="pub-meta">저자1, <strong>YOUR NAME</strong> · 학회/저널 · 2024</div>
+              <div class="pub-links">
+                <a href="#" target="_blank" rel="noopener">PDF</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <p class="hint">
+          팁: 각 논문은 <code>&lt;li class="pub-item"&gt; ... &lt;/li&gt;</code> 한 덩어리입니다.
+          복사/붙여넣기로 쉽게 추가할 수 있어요.
+        </p>
+      </div>
+    </section>
+
+    <!-- Patents -->
+    <section class="section" id="patents">
+      <div class="container card">
+        <h2>Patents</h2>
+        <ul class="simple-list">
+          <li>
+            <strong>Patent Title</strong> · Applicant/Inventors · Country · Year
+            <span class="muted"> (Application No. / Registration No.)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="section" id="awards">
+      <div class="container card">
+        <h2>Awards</h2>
+        <ul class="simple-list">
+          <li><strong>Award Name</strong> · Organization · 2026</li>
+          <li><strong>Award Name</strong> · Organization · 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Other Experience -->
+    <section class="section" id="experience">
+      <div class="container card">
+        <h2>Other Experience</h2>
+
+        <h3>Work / Internship</h3>
+        <ul class="simple-list">
+          <li><strong>Company/Lab</strong> · Role · 2025.06 – 2025.08</li>
+        </ul>
+
+        <h3>Teaching / Service</h3>
+        <ul class="simple-list">
+          <li><strong>TA</strong>, Course Name · University · 2026 Spring</li>
+        </ul>
+
+        <h3>Talks</h3>
+        <ul class="simple-list">
+          <li><strong>Talk Title</strong> · Event · 2025</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> YOUR NAME. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
